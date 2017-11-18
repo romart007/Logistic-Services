@@ -27,3 +27,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/sass,windows
+/Logistics Pro/nbproject/private/
