@@ -1,4 +1,5 @@
 .navbar-inverse .navbar-brand {
+  font-family: $header-font;
   font-size: 2rem;
   &:hover {
       color: $orange;

@@ -5573,12 +5573,13 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important; }
 
 body {
-  font-family: roboto, sans-serif;
+  font-family: "roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1 rem; }
 
 .navbar-inverse .navbar-brand {
+  font-family: "roboto", sans-serif;
   font-size: 2rem; }
   .navbar-inverse .navbar-brand:hover {
     color: #fd7e14; }
@@ -5602,8 +5603,8 @@ body {
   padding-top: 3.5rem;
   overflow: hidden; }
 
-.title-tagline {
-  font-family: roboto; }
+.tagline {
+  font-family: "sarina", sans-serif; }
 
 .title-main {
   font-weight: bolder;
