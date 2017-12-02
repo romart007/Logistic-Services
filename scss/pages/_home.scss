@@ -147,10 +147,7 @@ a { text-decoration: none;}
    max-height: 7vw;
    overflow-x: scroll;
  }
- @include media-breakpoint-down(sm){
-   text-align: left;
  }
-}
 
 //team
 .team {
