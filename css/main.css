@@ -5591,7 +5591,7 @@ body {
     color: #fd7e14; }
 
 .wrapper {
-  background-image: url(img/hero.jpg);
+  background-image: url(.././img/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
