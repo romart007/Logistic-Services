@@ -1,0 +1,199 @@
+.wrapper {
+  background-image: url(.././img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  color: $orange;
+  height: 100vh;
+}
+.hero {
+  padding-top: 3.5rem;
+  overflow: hidden;
+}
+.title-tagline {
+  font-family: roboto;
+}
+.title-main {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: $orange;
+}
+
+.title {text-transform: uppercase;
+  border-bottom: 1px solid $orange;
+}
+//hero area End
+
+//about section
+
+.about {
+  padding: 3em;
+  .img-card {
+    padding-top: 2.5em;
+  }
+}
+
+//statistics
+.statistics {
+  padding: 2.5em;
+  color: $white;
+  background-color: #95e1d3;
+
+h1 {
+  font-weight: bold;
+    }
+    @include media-breakpoint-up(md) {
+      .col-sm-6, .col-md-4 {
+      //  height: 100%;
+        border-left: 2px solid $white;
+          &:nth-of-type(6) {
+            border-right: 1.5px solid $white;
+            }
+          &:nth-of-type(3) {
+              border-right: 1.5px solid $white;
+            }
+         }
+    }
+}
+//features
+
+.features {
+  padding: 4em;
+
+  .t-one::before {
+    content: '\f017';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  .t-two::before {
+    content: '\f1fe';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  .t-three::before {
+    content: '\f108';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  .t-four::before {
+    content: '\f1ea';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  .t-five::before {
+    content: '\f015';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  .t-six::before {
+    content: '\f1ad';
+    display:inline-block;
+    font-family: FontAwesome;
+    margin-right: 5px;
+    color: $blue;
+  }
+  p {
+    padding-left: 1.8em;
+  }
+}
+
+// design
+
+.design, .team {
+  background-image: url(.././img/parallax.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 4em;
+  position: relative;
+}
+.row {
+  margin: auto 0;
+}
+.negatron {
+  margin: 0 auto;
+  position: absolute;
+  bottom: -5em;
+  left: 50%;
+  z-index: 100;
+}
+
+
+// services
+
+.service {
+  padding: 7em 0;
+   .card-header {
+     background-color: $dark;
+a { text-decoration: none;}
+     a::before {
+       content: '\f1ab';
+       display:inline-block;
+       font-family: FontAwesome;
+       color: $white;
+   }
+ }
+ .col-lg-6 .card p {
+   max-height: 7vw;
+   overflow-x: scroll;
+ }
+ @include media-breakpoint-down(sm){
+   text-align: left;
+ }
+}
+
+//team
+.team {
+  color: darken($black, 80%);
+  h3 {
+  color: lighten($black, 80%);
+    }
+.col-md-4 img {
+  max-height: 15vw;
+  }
+}
+
+
+//Work
+
+.work {
+  padding-top: 4em;
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.tagline { padding-top: 1.5em;
+
+}
+  .row {
+    overflow: hidden;
+  }
+}
+
+
+//footer
+footer {
+  color: lighten($black, 50%);
+  font-size: small;
+
+  .list-inline-item {
+    letter-spacing: .2rem;
+    a {
+      color: lighten($black, 50%);
+      &:hover {
+        text-decoration: none;
+        color: darken($white, 40%);
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.navbar-inverse .navbar-brand {
+  font-size: 2rem;
+  &:hover {
+      color: $orange;
+  }
+}
+
+.nav-item a {
+  margin-left: 1.5em;
+  text-transform: uppercase;
+  font-size: .8rem;
+  &:hover {
+      color: $orange;
+  }
+  }
