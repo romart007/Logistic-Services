@@ -1,0 +1,20 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// stylelint-disable;
+$white:    #fff;
+$black:    #000;
+$orange:  #fd7e14;
+
+$primary:       $orange;
+$secondary:     $gray-600;
+
+$display1-size:               12vmin;
+//$body-color: $orange;
+
+.btn-outline-primary:hover {
+    color: $white;
+    background-color: $orange;
+}
